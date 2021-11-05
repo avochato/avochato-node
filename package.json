@@ -4,7 +4,7 @@
   "description": "An Avochato API helper library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/avochato/avochato-node"
+    "url": "git+https://github.com/avochato/avochato-node.git"
   },
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,10 @@
   "dependencies": {
     "axios": "^0.24.0",
     "qs": "^6.10.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/avochato/avochato-node/issues"
+  },
+  "homepage": "https://github.com/avochato/avochato-node#readme",
+  "devDependencies": {}
 }
