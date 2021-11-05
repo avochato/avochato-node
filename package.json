@@ -1,0 +1,24 @@
+{
+  "name": "avochato",
+  "version": "1.0.0",
+  "description": "An Avochato API helper library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "avochato",
+    "sms",
+    "rest",
+    "api"
+  ],
+  "engines": {
+    "node": ">=6.0"
+  },
+  "author": "ted",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "qs": "^6.10.1"
+  }
+}
