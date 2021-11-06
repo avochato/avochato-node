@@ -14,7 +14,7 @@ const API = {
 
 class Avochato {
   constructor(options = {}) {
-    const {auth_id, auth_secret, baseUrl, debug} = options;
+    const {auth_id, auth_secret, debug, baseUrl, timeout} = options;
 
     if (!auth_id) throw new EmptyError('auth_id');
     if (!auth_secret) throw new EmptyError('auth_secret');
@@ -25,7 +25,7 @@ class Avochato {
 
     this.axios = axios.create({
       baseURL: baseUrl || 'https://www.avochato.com/v1/',
-      timeout: 10000,
+      timeout: timeout || 10000,
     });
     if (this.debug) console.log('baseURL:', this.axios.defaults.baseURL);
 
