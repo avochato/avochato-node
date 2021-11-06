@@ -30,8 +30,6 @@ client = avochato.connectWith({
   auth_id: <your_api_auth_id>,
   auth_secret: <your_api_auth_secret>,
 });
-
-client.
 ```
 
 ### Debug
