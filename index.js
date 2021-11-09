@@ -1,7 +1,6 @@
 const axios = require('axios');
 const pkgInfo = require('./package.json');
 const os = require('os');
-const qs = require('qs');
 const EmptyError = require('./errors/EmptyError');
 
 const API = {

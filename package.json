@@ -1,6 +1,6 @@
 {
   "name": "avochato",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "An Avochato API helper library",
   "repository": {
     "type": "git",
@@ -22,8 +22,7 @@
   "author": "ted",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.24.0",
-    "qs": "^6.10.1"
+    "axios": "^0.24.0"
   },
   "bugs": {
     "url": "https://github.com/avochato/avochato-node/issues"

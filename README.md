@@ -1,4 +1,6 @@
-# avochato-node
+# avochato
+
+[![NPM](https://nodei.co/npm/avochato.png?downloads=true&stars=true)](https://nodei.co/npm/avochato/)
 
 Simple HTTP wrapper for the Avochato API in node.js.
 
