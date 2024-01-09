@@ -22,7 +22,7 @@
   "author": "ted",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^1.6.0"
   },
   "bugs": {
     "url": "https://github.com/avochato/avochato-node/issues"
